@@ -21,7 +21,7 @@ function Balance() {
         return expense;
     }
     return (
-        <h1><span style={{ fontSize:'15px'}}>Your Balance</span><br/>${getIncome()+getExpense()}</h1>
+        <h1><span style={{ fontSize:'16px'}}>Your Balance</span><br/>${getIncome()+getExpense()}</h1>
     );
 }
 
